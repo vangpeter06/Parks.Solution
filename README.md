@@ -50,12 +50,17 @@ _This is a C# API Framework application build to allow users to make API calls t
 * _Update database in MySQL Workbench command $ dotnet ef database update_
 * _Next we will execute this compiled code in command $ dotnet run_
 
+## Documentation
+
 ### CRUD STRUCTURE
- _GET /api/Parks_
- _POST /api/Parks_
- _GET /api/Parks/{id}_
- _PUT /api/Parks/{id}_
- _DELETE /api/Parks{id}_
+```
+ GET /api/Parks
+ POST /api/Parks
+ GET /api/Parks/{id}
+ PUT /api/Parks/{id}
+ DELETE /api/Parks{id}
+```
+![Image of CRUD structure](./Parks/wwwroot/img/Screen%20Shot%202022-08-19%20at%204.18.41%20PM.png)
 
 ### EXAMPLE QUERY
  _GET /api/Parks/?location=oregon_
