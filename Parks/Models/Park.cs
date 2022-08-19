@@ -1,6 +1,6 @@
 namespace Parks.Models
 {
-  public class Parks
+  public class Park
   {
     public int ParkId { get; set; }
     public string Name { get; set; }

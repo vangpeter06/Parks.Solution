@@ -34,6 +34,57 @@ namespace Parks.Migrations
                     b.HasKey("ParkId");
 
                     b.ToTable("Parks");
+
+                    b.HasData(
+                        new
+                        {
+                            ParkId = 1,
+                            Location = "Oregon",
+                            Name = "Crater Lake",
+                            Type = "National"
+                        },
+                        new
+                        {
+                            ParkId = 2,
+                            Location = "California",
+                            Name = "Yosemite National Park",
+                            Type = "National"
+                        },
+                        new
+                        {
+                            ParkId = 3,
+                            Location = "Utah",
+                            Name = "Bryce Canyon Nation Park",
+                            Type = "National"
+                        },
+                        new
+                        {
+                            ParkId = 4,
+                            Location = "Utah",
+                            Name = "Zion National Park",
+                            Type = "National"
+                        },
+                        new
+                        {
+                            ParkId = 5,
+                            Location = "Oregon",
+                            Name = "Blue Lake",
+                            Type = "State"
+                        },
+                        new
+                        {
+                            ParkId = 6,
+                            Location = "California",
+                            Name = "Merced's Applegate Park Zoo",
+                            Type = "State"
+                        },
+                        new
+                        {
+                            ParkId = 7,
+                            Location = "Oregon",
+                            Name = "Fairview Community Park",
+                            Type = "City"
+                        });
                 });
 #pragma warning restore 612, 618
         }
