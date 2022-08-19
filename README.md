@@ -71,9 +71,9 @@ _This is a C# API Framework application build to allow users to make API calls t
 ![Image of Swagger](./Parks/wwwroot/img/Screen%20Shot%202022-08-19%20at%203.19.43%20PM.png)
 
 ###SAMPLE JSON RESPONSE 
-```
+
 [!Image of JSON response](./Parks/wwwroot/img/Screen%20Shot%202022-08-19%20at%204.30.21%20PM.png)
-```
+
 
 ## Known Bugs
 no know bug
