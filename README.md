@@ -72,7 +72,7 @@ _This is a C# API Framework application build to allow users to make API calls t
 
 ###SAMPLE JSON RESPONSE 
 
-[!Image of JSON response](./Parks/wwwroot/img/Screen%20Shot%202022-08-19%20at%204.30.21%20PM.png)
+![Image of JSON response](./Parks/wwwroot/img/Screen%20Shot%202022-08-19%20at%204.30.21%20PM.png)
 
 
 ## Known Bugs
