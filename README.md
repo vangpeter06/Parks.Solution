@@ -27,7 +27,7 @@ _This is a C# API Framework application build to allow users to make API calls t
 * _Navigate to the directory in terminal $ cd Parks.Solution_
 * _Open project in the command $ code ._
 * _Navigate to the sub-directory of the project $ cd Parks_
-* _Add appsettings.json file to the SweetSavory directory in terminal $ touch appsettings.json_
+* _Add appsettings.json file to the Parks directory in terminal $ touch appsettings.json_
 * _Insert the following codes 
   {
   "Logging": {
@@ -51,17 +51,17 @@ _This is a C# API Framework application build to allow users to make API calls t
 * _Next we will execute this compiled code in command $ dotnet run_
 
 ### CRUD STRUCTURE
-* _GET /api/Parks_
-* _POST /api/Parks_
-* _GET /api/Parks/{id}_
-* _PUT /api/Parks/{id}_
-* _DELETE /api/Parks{id}_
+ _GET /api/Parks_
+ _POST /api/Parks_
+ _GET /api/Parks/{id}_
+ _PUT /api/Parks/{id}_
+ _DELETE /api/Parks{id}_
 
 ### EXAMPLE QUERY
-* _GET /api/Parks/?location=oregon_
+ _GET /api/Parks/?location=oregon_
 
 ### SWAGGER
-* _This project utilizes swagger documentation that can be found https://localhost:5001/swagger/index.html (when program is running)_
+ _This project utilizes swagger documentation that can be found https://localhost:5001/swagger/index.html (when program is running)_
 
 ![Image of Swagger](./Parks/wwwroot/img/Screen%20Shot%202022-08-19%20at%203.19.43%20PM.png)
 
